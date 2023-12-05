@@ -6,6 +6,8 @@ body {
 }
 
 .header {
+    text-decoration: none;
+    color: black;
     text-align: center;
     font-size: 2em;
     font-family: 'Permanent Marker', cursive;
@@ -21,7 +23,6 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    
     border: 10px solid green;
     width: 300px;
     height: 300px;
