@@ -23,8 +23,6 @@ body{
 img {
     display: block;
     width: 300px;
-    margin: -96px auto 0 auto;
-    margin-left: -100px;
 }
 
 .header {
@@ -33,32 +31,28 @@ img {
     font-size: 2em;
     font-family: 'Permanent Marker', cursive;
     display: block;
-    float: right;
 }
 
 
 .s1 {
     grid-area: s1;
-    display: block;
-    width: 300px;
+    display: flex;
+    width: 460px;
     border: 15px solid green;
-    padding: 80px;
     margin: 20px;
     text-align: right;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 
 
-.s1 p {
-    position: relative;
-    top: -130px;
-    left: 50px;
-}
+
 
 .s2 {
     grid-area: s2;
-    display: block;
+    display: flex;
     position: relative; left: 50%;
     width: 300px;
     border: 15px solid green;
