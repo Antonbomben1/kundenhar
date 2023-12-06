@@ -21,6 +21,7 @@ body {
 }
 
 .card {
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     border: 10px solid green;
@@ -52,4 +53,63 @@ body {
 .text2 {
 font-size: 10px;
 background-color: white;
+border-radius: 10px;
+
 }
+
+.card2 img {
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+
+.card2 .text4 {
+    display: none;
+} 
+
+.card2:hover .text4 {
+    display: block;
+}
+
+.card2:hover .text3 {
+    display: none;
+}
+
+.text4 {
+font-size: 9px;
+background-color: white;
+border-radius: 10px;
+}
+
+.card3 img {
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+
+.card3 .text6 {
+    display: none;
+}
+
+.card3:hover .text6 {
+    display: block;
+}
+
+.card3:hover .text5 {
+    display: none;
+}
+
+.text6 {
+font-size: 10px;
+background-color: white;
+border-radius: 10px;
+}
+
+.card1, .card2, .card3 {
+    transition: transform .5s; /* Animation */
+  }
+  
+  .card1:hover, .card2:hover, .card3:hover{
+    transform: scale(1.3);
+  }
+
