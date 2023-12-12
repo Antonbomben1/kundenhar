@@ -3,6 +3,7 @@
 
 body{
     background-color: #27ae60;
+    margin: 0px;
 }
 
 #wrapper {
@@ -20,10 +21,16 @@ body{
     ;
 }
 
-img {
+.s1 img {
     display: block;
     width: 300px;
 }
+
+.s2 img {
+    display: block;
+    width: 300px;
+}
+
 
 .header {
     grid-area: h1;
@@ -31,15 +38,17 @@ img {
     font-size: 2em;
     font-family: 'Permanent Marker', cursive;
     display: block;
-    margin: -20px
 }
 
+.header p {
+    margin: 0px;
+}
 
 .s1 {
     grid-area: s1;
     display: flex;
     width: 460px;
-    border: 15px solid green;
+    border: 15px solid #AD4726;
     margin: 20px;
     text-align: right;
     cursor: pointer;
@@ -54,10 +63,12 @@ img {
 .s2 {
     grid-area: s2;
     display: flex;
-    position: relative; left: 50%;
-    width: 300px;
-    border: 15px solid green;
-    padding: 80px;
+    width: 460px;
+    border: 15px solid #AD4726;
+    margin-left: auto;
+    margin-right: 20px;
+    text-decoration:none;
+    color: black;
 
 }
 .s3 {
@@ -69,7 +80,7 @@ img {
     grid-area: ft;
     display: block;
     width: 1fr;
-    border: 15px solid green;
+    border: 15px solid #AD4726;
     padding: 50px;
     margin: 20px;
     
@@ -98,7 +109,11 @@ img {
 }
 
 .s1:hover {
-    background-color: #4CAF50;
+    background-color: #AD2657;
+    color: white;
+}
+.s2:hover {
+    background-color: #AD2657;
     color: white;
 }
 
