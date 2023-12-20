@@ -95,7 +95,6 @@ body{
 .ft{
     grid-area: ft;
     display: block;
-    width: 1fr;
     border: 15px solid #AD4726;
     padding: 50px;
     margin: 20px;
@@ -106,7 +105,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 1fr;
-    height: 1fr
 }
 
 .hero-text:hover {
@@ -116,12 +114,20 @@ body{
 .hero-text2:hover {
     color: blue;
 }
+.hero-text1{
+    display: block;
+    float: right;
+    background-color: #12542d;
+    color: white;
+    border-radius: 10px;
+}
+
 .hero-text2{
     display: block;
     float: right;
-    width: 1fr;
-    height: 1fr
-
+    background-color: #12542d;
+    color: white;
+    border-radius: 10px;
 }
 
 .s1:hover {
